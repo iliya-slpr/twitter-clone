@@ -1,0 +1,81 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 5px;
+  border-bottom: 2px solid grey;
+}
+
+.post_body {
+  flex: 1;
+  padding: 10px;
+}
+
+.post_body > img {
+  border-radius: 20px;
+  margin-left: -30px;
+}
+
+.post_headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+  width: 400px;
+}
+
+.post_headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.post_badge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+
+.post_headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.post_avatar {
+  padding: 15px;
+}
+
+
+/* CommentBox */
+.commentBox {
+  width: 100%;
+  padding: 12px 0;
+  position: relative;
+}
+.commentBox input, .commentBox textarea{
+  width: 100%;
+  height: 100px;
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+.commentBox input:focus{
+  border-color: rgba(0, 0, 0, 0.8);
+}
+.commentBox .send{
+  position: absolute;
+  right: 0;
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 4px 12px;
+  margin: 3px;
+  border-radius: 6px;
+}
+.commentBox .send:active {
+  transform: scale(0.9);
+}
+
+.close_comment {
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  transform: scale(1.5);
+}
